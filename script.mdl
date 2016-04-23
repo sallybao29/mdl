@@ -1,0 +1,74 @@
+//torso
+push
+move 250 300 0
+sphere 0 0 0 100
+//torso band
+push
+move 0 -100 0
+torus 0 0 0 30 70
+//left leg
+push
+rotate y 20
+move -60 -30 0
+box -15 0 15 30 60 30
+//leg band
+push
+move 0 -60 0
+torus 0 0 0 10 20
+//left foot
+move 0 -10 0
+box -20 0 80 40 10 80
+//right leg
+pop
+pop
+push
+rotate y -20
+move 60 -30 0
+box -15 0 15 30 60 30
+//leg band
+push
+move 0 -60 0
+torus 0 0 0 10 20
+//right foot
+move 0 -10 0
+box -20 0 80 40 10 80
+//head
+pop
+pop
+pop
+push
+move 0 130 0
+sphere 0 0 0 30
+//left arm
+pop
+push
+move -125 60 0
+rotate y -60
+rotate x 20
+sphere 0 0 0 40
+move 0 -40 0
+box -15 0 15 30 60 30
+//left hand
+push
+move 0 -60 0
+rotate x -50
+torus 0 0 0 10 20
+move 0 -10 0
+box -25 0 25 50 40 50
+//right arm
+pop
+pop
+push
+move 125 60 0
+rotate z 140
+sphere 0 0 0 40
+move 0 -40 0
+box -15 0 15 30 60 30
+//right hand
+push
+move 0 -60 0
+torus 0 0 0 10 20
+move 0 -10 0
+box -25 0 25 50 40 50
+display
+save golem.png

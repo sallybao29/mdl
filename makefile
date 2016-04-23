@@ -47,3 +47,5 @@ clean:
 	rm -rf mdl.dSYM
 	rm *.o *~
 
+run:
+	./mdl script.mdl

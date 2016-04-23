@@ -425,8 +425,8 @@ void add_box( struct matrix * polygons,
   jdyrlandweaver
   ====================*/
 void add_circle( struct matrix * points, 
-		 double cx, double cy, 
-		 double r, double step ) {
+								 double cx, double cy, 
+								 double r, double step ) {
   
   double x0, y0, x, y, t;
   

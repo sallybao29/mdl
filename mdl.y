@@ -790,8 +790,8 @@ int main(int argc, char **argv)
       yyin = fopen(argv[1],"r");
       
       if ( argc == 3 && strncmp(argv[2], "-l", 2) == 0) {
-	printf("lines");
-	i = 0;
+				printf("lines");
+				i = 0;
       }
 	
     }
@@ -800,7 +800,7 @@ int main(int argc, char **argv)
   //COMMENT OUT PRINT_PCODE AND UNCOMMENT
   //MY_MAIN IN ORDER TO RUN YOUR CODE
   print_pcode();
-  //my_main();
+  my_main();
 
   return 0;    
 }
